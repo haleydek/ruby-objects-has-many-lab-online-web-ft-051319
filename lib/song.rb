@@ -3,7 +3,7 @@ class Song
   attr_reader :artist
   @@all = []
   
-  def artist=(artist = nil)
+  def artist=(artist=nil)
     @artist = artist
   end
   
