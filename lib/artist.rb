@@ -18,7 +18,10 @@ class Artist
   end
   
   def self.song_count
-    @songs.size
+    if @songs == []
+      0
+    else @songs.size
+    end
   end
   
 end
