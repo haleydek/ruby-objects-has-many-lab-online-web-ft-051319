@@ -17,8 +17,8 @@ class Artist
     song.artist = self
   end
   
-  def self.song_count
-    song.class.all.size
+  def self.song_count(song)
+    song.all.size
   end
   
 end
