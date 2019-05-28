@@ -15,10 +15,11 @@ class Artist
     song = Song.new(name)
     @songs << song
     song.artist = self
+    song
   end
   
   def self.song_count
-    @songs.size
+    song.all.size
   end
   
 end
